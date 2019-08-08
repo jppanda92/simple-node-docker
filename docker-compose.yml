@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   simple-node-docker:
-    image: sharks-node-demo:latest  #Replace with your docker image name
+    image: jppanda/test:simple-node-demo  #Replace with your docker image name
     ports:
       - "80:3000"
     deploy:
